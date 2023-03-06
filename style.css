@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 20;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    background-color: rgb(243, 182, 249);
+    text-align: center;
+}
+
+main{
+    background-image: radial-gradient(rgb(185, 147, 207),rgb(203, 139, 240)  );
+    text-align-last: left;
+    margin-left: 20px;
+
+}
+
+footer{
+    text-align: justify;
+    text-align: center;
+    background-color: rgb(234, 197, 149);
+}
