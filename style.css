@@ -1,25 +1,101 @@
 *{
     margin: 0;
-    padding: 20;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-
+    padding: 0;
+    box-sizing: border-box; 
+    /* garante que os elementos terão o mesmo tamanho, ideal para 
+    trabalhar com responsividade */
+    font-family: 'Montserrat', sans-serif;
 }
 
 header{
-    background-color: rgb(243, 182, 249);
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(160, 160, 160);
+    height: 10%;
+    padding: 20px;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+#item__navegador{
+    font-size: large;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 main{
-    background-image: radial-gradient(rgb(185, 147, 207),rgb(203, 139, 240)  );
-    text-align-last: left;
-    margin-left: 20px;
+    min-height: 89vh;
+    background-image: linear-gradient(to bottom, rgb(160, 160, 160), rgb(100, 50, 0));
+}
 
+.primeira__sessao{
+    display: flex;
+    justify-content: center;
+    padding: 10vh;
+}
+
+.primeira__sessao_imagem{
+    width: 20%;
+    border-radius: 5%;
+}
+
+.primeira__sessao_container{
+   padding: 10px;
+}
+
+.primeira__sessao_paragrafo{
+    width: 30vh;
+    text-align: justify;
+}
+
+.segunda__sessao{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.segunda__sessao_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.segunda__sessao_titulo{
+    border-bottom: black solid 1px;
+    padding: 2px;
+}
+
+.segunda__sessao_texto{
+    border: black solid 1px;
+    width: 20vw;
+    height: 15vh;
+    
+}
+
+.segunda__sessao_texto_titulo{
+    text-align: center;
+    padding: 10px;
+}
+
+.segunda__sessao_texto_itens{
+    list-style: none;
+    margin: 5px;
+}
+
+#item{
+    padding: 2px;
 }
 
 footer{
-    text-align: justify;
-    text-align: center;
-    background-color: rgb(234, 197, 149);
+    background-color: aqua;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
