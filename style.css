@@ -4,7 +4,7 @@
     box-sizing: border-box; 
     /* garante que os elementos terão o mesmo tamanho, ideal para 
     trabalhar com responsividade */
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header{
@@ -12,31 +12,36 @@ header{
     justify-content: space-between;
     align-items: center;
 
-    background-color: rgb(160, 160, 160);
+    background-color: rgb(214, 127, 238);
     height: 10%;
     padding: 20px;
 }
 
 h1{
     text-transform: uppercase;
+    color: rgb(111, 57, 112);
+}
+
+h2{
+    color:rgb(59, 29, 59)
 }
 
 #item__navegador{
     font-size: large;
     padding: 20px;
     text-decoration: none;
-    color: black;
+    color:  rgb(111, 57, 112);
 }
 
 main{
     min-height: 89vh;
-    background-image: linear-gradient(to bottom, rgb(160, 160, 160), rgb(100, 50, 0));
+    background-image: radial-gradient(rgb(211, 50, 233),rgb(217, 122, 234), rgb(179, 24, 199));
 }
 
 .primeira__sessao{
     display: flex;
     justify-content: center;
-    padding: 10vh;
+    padding: 8vh;
 }
 
 .primeira__sessao_imagem{
@@ -56,25 +61,26 @@ main{
 .segunda__sessao{
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 20px;
 }
 
 .segunda__sessao_container{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 20px;
+    padding: 15px;
 }
 
 .segunda__sessao_titulo{
-    border-bottom: black solid 1px;
+    border-bottom: rgb(0, 0, 0) solid 1px;
     padding: 2px;
 }
 
 .segunda__sessao_texto{
     border: black solid 1px;
-    width: 20vw;
-    height: 15vh;
+    border-radius: 3vh;
+    width: 30vw;
+    height: 25vh;
     
 }
 
@@ -85,7 +91,7 @@ main{
 
 .segunda__sessao_texto_itens{
     list-style: none;
-    margin: 5px;
+    margin: 10px;
 }
 
 #item{
@@ -93,7 +99,7 @@ main{
 }
 
 footer{
-    background-color: aqua;
+    background-color: rgb(214, 127, 238);
     height: 5vh;
     display: flex;
     align-items: center;
