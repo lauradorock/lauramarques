@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    /* garante que os elementos terão o mesmo tamanho, ideal para 
+    trabalhar com responsividade */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgb(214, 127, 238);
+    height: 10%;
+    padding: 20px;
+}
+
+h1{
+    text-transform: uppercase;
+    color: rgb(111, 57, 112);
+    text-align: center;
+}
+
+h2{
+    color:rgb(59, 29, 59);
+    text-align: center;
+}
+
+#item__navegador{
+    font-size: large;
+    padding: 20px;
+    text-decoration: none;
+    color:  rgb(111, 57, 112);
+}
+
+main{
+    min-height: 89vh;
+    background-image: radial-gradient(rgb(211, 50, 233),rgb(217, 122, 234), rgb(179, 24, 199));
+}
+
+.primeira__sessao{
+    display: flex;
+    justify-content: center;
+    padding: 8vh;
+}
+
+.primeira__sessao_imagem{
+    width: 20%;
+    border-radius: 6%;
+    border-color: blueviolet;
+    padding: 2vh;
+   
+}
+
+.primeira__sessao_container{
+   padding: 10px;
+}
+
+.primeira__sessao_paragrafo{
+    width: 30vh;
+    text-align: justify;
+}
+
+.segunda__sessao{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.segunda__sessao_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.segunda__sessao_titulo{
+    border-bottom: rgb(0, 0, 0) solid 1px;
+    padding: 1px;
+}
+
+.segunda__sessao_texto{
+    border: black solid 1px;
+    border-radius: 3vh;
+    width: 30vw;
+    height: 25vh;
+    color: rgb(59, 29, 59);
+    
+}
+
+.segunda__sessao_texto_titulo{
+    text-align: center;
+    padding: 10px;
+}
+
+.segunda__sessao_texto_itens{
+    list-style: none;
+    margin: 10px;
+}
+
+#item{
+    padding: 2px;
+}
+
+footer{
+    background-color: rgb(214, 127, 238);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
