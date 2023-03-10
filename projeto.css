@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgb(214, 127, 238);
+    height: 10%;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    min-height: 89vh;
+    background-image: radial-gradient(rgb(211, 50, 233),rgb(217, 122, 234), rgb(179, 24, 199));
+    flex-direction: column;
+    text-align: center;
+   
+}

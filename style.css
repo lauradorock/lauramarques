@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
-    /* garante que os elementos terão o mesmo tamanho, ideal para 
-    trabalhar com responsividade */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -105,9 +103,10 @@ main{
 
 footer{
     background-color: rgb(214, 127, 238);
+    color:rgb(59, 29, 59);
     height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-style: italic;
+    font-style: bold;
 }
